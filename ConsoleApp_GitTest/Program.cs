@@ -17,10 +17,10 @@ namespace ConsoleApp_GitTest
             Add(1, 2);
             Console.Read();
         }
-        static int Add(int a, int b)
-        {
-            return a + b;
-        }
+        //static int Add(int a, int b)
+        //{
+        //    return a + b;
+        //}
         static int Mul(int a, int b)
         {
             return a * b;
@@ -28,6 +28,11 @@ namespace ConsoleApp_GitTest
         static int Sub(int a, int b)
         {
             return a - b;
+        }
+        static int Add(int a, int b)
+        {
+            int c = a + b;
+            return c;
         }
     }
 }
