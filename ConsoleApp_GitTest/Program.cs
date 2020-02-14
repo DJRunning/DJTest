@@ -25,10 +25,10 @@ namespace ConsoleApp_GitTest
         {
             return a * b;
         }
-        static int Sub(int a, int b)
-        {
-            return a - b;
-        }
+        //static int Sub(int a, int b)
+        //{
+        //    return a - b;
+        //}
         static int Add(int a, int b)
         {
             int c = a + b;
