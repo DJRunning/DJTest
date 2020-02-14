@@ -32,7 +32,7 @@ namespace ConsoleApp_GitTest
         static int Add(int a, int b)
         {
             int c = a + b;
-            c=c-8;
+            c=c+8;
             return c;
         }
         static void test()
