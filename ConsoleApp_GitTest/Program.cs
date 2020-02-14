@@ -36,7 +36,7 @@ namespace ConsoleApp_GitTest
         }
         static void test()
         {
-        
+           Console.WriteLine("ddfa");
         }
     }
 }
