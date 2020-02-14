@@ -34,5 +34,9 @@ namespace ConsoleApp_GitTest
             int c = a + b;
             return c;
         }
+        static void test()
+        {
+        
+        }
     }
 }
