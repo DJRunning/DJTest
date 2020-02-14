@@ -33,7 +33,7 @@ namespace ConsoleApp_GitTest
         {
             int c = a + b;
             c=c+8;
-            c = 9 - c;
+            c = 9 + c;
             return c;
         }
         static void test()
