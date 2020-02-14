@@ -14,7 +14,12 @@ namespace ConsoleApp_GitTest
             {
                 Console.WriteLine(i);
             }
+            Add(1, 2);
             Console.Read();
+        }
+        static int Add(int a, int b)
+        {
+            return a + b;
         }
     }
 }
